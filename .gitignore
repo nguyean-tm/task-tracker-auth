@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Env secrets
+.env
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Alembic generated (keep versions/ tracked)
+*.pyc
+
+# Node / frontend (not our remit here)
+node_modules/
+dist/
+.DS_Store
